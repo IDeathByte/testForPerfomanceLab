@@ -1,0 +1,14 @@
+.field {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 600px;
+    height: 600px;
+    background-color: crimson;
+    alignment: center;
+}
+
+.button {
+    margin: auto;
+    alignment: center;
+}

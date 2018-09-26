@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сортировка чисел</title>
+    <link rel="stylesheet" href="sort.css">
+</head>
+<body>
+<div class="field">
+    <button class="button" onclick="sortNum()">Нажмите для старта</button>
+</div>
+
+олололол
+<script>
+    function sortNum() {
+        var arr =[];
+        for (let i = 1; i<=10;i++) {
+            arr.push(prompt("Введете " + i + "-е число"))
+        }
+        arr.sort(function (a, b) {
+            return a-b;
+        })
+        alert("Ваши числа в порядке возрастания: " + arr)
+    };
+
+</script>
+
+</body>
+</html>
